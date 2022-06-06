@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>UNB</title>
+    <title>Alloy Design and Material Testing Research Laboratory</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Favicon -->
@@ -82,7 +82,7 @@
                     <img src="img/Home/New Home Page pic.png" alt="">
                 </div>
                 <div class="top-video">
-                    <video controls loop autoplay src="img/Home/New Video Website.mp4"></video>
+                    <video id="myVideo" controls loop autoplay src="img/Home/New Video Website.mp4"></video>
                 </div>
             </div>
         </div>
@@ -133,6 +133,11 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myVideo").autoplay;
+        }
+    </script>
 </body>
 
 </html>
